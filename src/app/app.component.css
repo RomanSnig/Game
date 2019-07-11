@@ -1,0 +1,31 @@
+.game{
+  display: flex;
+}
+
+.start{
+  flex-grow: 2;
+  align-items: center;
+}
+.fight{
+  font-size: 300%;
+  color: red;
+}
+.hero{
+  flex-grow: 1;
+}
+
+.hero_second{
+  flex-grow: 1;
+  text-align: end;
+}
+
+.button{
+  margin-top: 5px;
+  font-size: 250%;
+  color: #e0b500;
+}
+
+.hero_health{
+  font-size: 175%;
+  color: red;
+}

@@ -1,0 +1,42 @@
+<div ngClass="game">
+  <div ngClass="hero">
+    Name: <b>{{Roman.name}}</b>
+    <br>
+    Power: {{Roman.power}}
+    <br>
+    Defence: {{Roman.defence}}
+    <br>
+    Remove: {{Roman.remove}}
+    <br>
+    <button ngClass="button" (click)="RomanShot()">Shot!!</button>
+    <br>
+    <button ngClass="button" (click)="RomanRemove()">Remove</button>
+    <div class="hero_health">
+      Health: {{Roman.health}}
+    </div>
+  </div>
+  <div ngClass="Start" (click)="start()">
+    <!--<button (click)="fight()" ngClass="fight">FIGHT!</button>-->
+    <br>
+    <button ngClass="fight" (click)="again()">FIGHT AGAIN!</button>
+    <!--<button (click)="remove()" ngClass="fight">Remove</button>-->
+  </div>
+  <div ngClass="hero_second">
+    Name: <b>{{Scorpion.name}}</b>
+    <br>
+    Power: {{Scorpion.power}}
+    <br>
+    Defence: {{Scorpion.defence}}
+    <br>
+    Remove: {{Scorpion.remove}}
+    <br>
+    <button ngClass="button" (click)="ScorpionShot()">Shot!!</button>
+    <br>
+    <button ngClass="button" (click)="ScorpionRemove()">Remove</button>
+    <div class="hero_health">
+      Health: {{Scorpion.health}}
+    </div>
+  </div>
+
+</div>
+
